@@ -1,0 +1,43 @@
+.inspiration--container {
+    margin-bottom:5%;
+}
+
+.inspiration--container a {
+    text-decoration: none;
+    color: var(--dark);
+}
+
+.inspiration--cardContainer {
+    display:flex;
+    flex-direction: column;
+    width:90%;
+    margin-inline:auto;
+    grid-gap:5%;
+}
+
+.inspiration--card p:nth-child(2) {
+    font-weight:500;
+}
+
+.inspiration--card img {
+    width:100%;
+    border-radius:5px;
+    margin-bottom:5%;
+}
+
+.inspiration--container h3 {
+    text-transform: uppercase;
+    padding-left:5%;
+    margin-bottom:5%;
+}
+
+@media (min-width:1024px) {
+    .inspiration--cardContainer {
+        display:flex;
+        flex-direction: row;
+    }
+    .inspiration--container {
+        width:72%;
+        margin-inline:auto;
+    }
+}

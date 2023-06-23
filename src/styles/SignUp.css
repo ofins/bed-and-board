@@ -1,0 +1,46 @@
+.signUp--container {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  place-items: center;
+  text-align: center;
+}
+
+.signUp--box {
+  width: 90%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  place-items: center;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 60px 40px -7px;
+  max-width:500px;
+}
+
+.signUp--box button {
+  width: 45%;
+  border-radius:5px;
+  background-color: var(--teal);
+  color:var(--space);
+  border-style:none;
+  height:40px;
+}
+
+.signUp--inputBox {
+    display:flex;
+    flex-direction: column;
+    font-size:18px;
+}
+
+.signUp--inputBox input {
+  margin-block: 3%;
+  height:50px;
+  border-radius:5px;
+  text-align: center;
+}
+
+.signUp--inputBox input::placeholder {
+    text-align: center;
+}

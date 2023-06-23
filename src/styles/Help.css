@@ -1,0 +1,12 @@
+.help--container {
+    padding:3%;
+}
+
+.help--instruction {
+    margin-top:5%;
+    height:80vh;
+}
+
+.help--instruction a {
+    width:fit-content;
+}

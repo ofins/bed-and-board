@@ -1,0 +1,154 @@
+.frontCover--container {
+  text-align: center;
+}
+
+
+/* FRONTCOVER BOX */
+
+.frontCover--box {
+  min-height: 200px;
+  color: var(--dark);
+  background: linear-gradient(0deg, var(--teal), white);
+  display: grid;
+  place-items: center;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 60px 40px -7px;
+}
+
+.frontCover--box h3 {
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.frontCover--box p {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.frontCover--routes {
+  z-index:2;
+  display:flex;
+  justify-content: space-around;
+  width:80%;
+  background-color: white;
+  border-radius:5px;
+  padding:1%;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.frontCover--containerB {
+  width:80%;
+  margin-inline:auto;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  place-items: center;
+  margin-top:-2%;
+}
+
+.frontCover--links {
+  color: var(--dark);
+  font-weight:bold;
+  display:flex;
+  justify-content: center;
+}
+
+.frontCover--links img {
+  width:15px;
+  margin-right:5px;
+}
+
+.frontCover--routes .frontCover--links:first-child {
+  border-bottom:3px solid var(--teal);
+}
+
+.frontCover--routes.gt1024 {
+  display:none;
+}
+
+/* INPUTS */
+
+.frontCover--inputContainer {
+  width: 90%;
+  max-width: 1200px;
+  margin-inline: auto;
+  background-color: var(--space);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow: hidden;
+  margin-top: -20px;
+  padding-block:2%;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.frontCover--inputContainer select,
+.inputs {
+  margin: 1%;
+  margin-inline: 3%;
+  height: 50px;
+  border-style: none;
+  text-align: center;
+  color: var(--grey);
+  letter-spacing: 3px;
+  border-radius: 5px;
+}
+
+#frontCoverSearch {
+  background-color: var(--teal);
+  color: var(--space);
+  border-radius: 5px;
+  display: grid;
+  place-items: center;
+  text-decoration: none;
+  width:95%;
+  margin-inline:auto;
+}
+
+#frontCoverSearch button {
+  background-color: transparent;
+  border-style:none;
+  color:white;
+  width:100%;
+  height:100%;
+}
+
+.frontCover--cancellationText {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-size: 20px;
+}
+
+@media (min-width: 1024px) {
+  .frontCover--container {
+    width: 100%;
+    margin-inline: auto;
+  }
+  .frontCover--box {
+    height:300px;
+  }
+  .frontCover--box h3 {
+    font-size:36px;
+  }
+  .frontCover--box p {
+    font-size:20px;
+  }
+  .frontCover--inputContainer {
+    flex-direction: row;
+    place-items: center;
+    height: 120px;
+    padding-inline:1%;
+  }
+  .frontCover--inputContainer select,
+  .frontCover--inputContainer input {
+    margin-inline: 1%;
+    width: 100%;
+  }
+  #frontCoverSearch {
+    width: 50%;
+  }
+  .frontCover--routes.gt1024 {
+    display:flex;
+  }
+}

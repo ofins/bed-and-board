@@ -1,0 +1,16 @@
+.inspirationDetails--imageContainer {
+    display:flex;
+}
+
+.inspirationDetails--context {
+    padding:3%;
+}
+
+@media (min-width:1024px) {
+    .inspirationDetails--imageContainer {
+        width:100%;
+    }
+    .inspirationDetails--context h3 {
+        margin-bottom:3%;
+    }
+}

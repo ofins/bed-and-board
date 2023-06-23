@@ -1,0 +1,105 @@
+* {
+    /* border:1px solid red; */
+}
+
+.reserve--reservationInputs {
+    width:90%;
+    margin-inline:auto;
+}
+
+Form Button {
+    width:100%;
+    letter-spacing: 2px;
+}
+
+.reserve--bookingContainer {
+    color: var(--grey);
+    width:90%;
+    margin-inline:auto;
+    background-color: var(--space);
+    margin-block:5%;
+    padding:2%;
+    border-radius:5px;
+}
+
+hr {
+    width:90%;
+    margin-inline:auto;
+}
+
+.reserve--bookingDetails p {
+    margin:0;
+    font-size:14px;
+}
+
+.reserve--priceSummary {
+    margin-bottom:5%;
+}
+
+.reserve--priceSummary span {
+    display:flex;
+    justify-content: space-between;
+}
+
+.reserve--priceSummary span p {
+    margin:0;
+    font-size:14px;
+}
+
+.reserve--totalPrice {
+    display:flex;
+    justify-content: space-between;
+}
+
+.reserve--reservationConfirmContainer {
+    width:90%;
+    margin-inline:auto;
+}
+
+.reserve--reservationConfirmContainer h3 {
+    padding-inline:5%;
+}
+
+.reserve--confirmGuestDetails {
+    padding-inline:5%;
+}
+
+.reserve--confirmGuestDetails span {
+    display:flex;
+    justify-content: space-between;
+}
+
+.reserve--confirmLocation {
+    padding-inline:5%;
+}
+
+.reserve--confirmLocation span {
+    display:flex;
+    justify-content: space-between;
+}
+
+.reserve--confirmGuestDetails span p:first-child,
+.reserve--confirmLocation span p:first-child {
+    font-weight:bold;
+}
+
+.reserve--reservationConfirmContainer Button {
+    width:100%;
+}
+
+
+.none {
+    display:none;
+}
+
+@media (min-width:768px) {
+    .reserve--container {
+        display:flex;
+        place-items: center;
+        gap:5%;
+        padding-inline:3%;
+        max-width:1500px;
+        margin-inline:auto;
+        height:90vh;
+    }
+}
