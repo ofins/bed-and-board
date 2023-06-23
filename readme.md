@@ -1,4 +1,5 @@
 # Bed & Board
+![desktop](./public/desktop_view.png)
 
 ### Built with
 - React
