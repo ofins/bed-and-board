@@ -16,7 +16,7 @@ const Help = () => {
                 <li>You must selection destination, check-in, and check-out date to be able to search for hotels</li>
             </ul>
             <h5 className='help subtitle'>Other</h5>
-            Link to Github source
+            Link to Github <a href="https://github.com/ofins/bed-and-board">source</a>
         </div>
     </div>
   )

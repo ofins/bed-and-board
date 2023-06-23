@@ -6,7 +6,7 @@
 .features--container h3 {
   margin-bottom: 30px;
   text-transform: uppercase;
-  padding-inline: 2%;
+  text-align: center;
 }
 
 .featureCard--container {
@@ -64,5 +64,8 @@
 @media (min-width: 1024px) {
   .features--container {
     width: 65%;
+  }
+  .features--container h3 {
+    text-align: left;
   }
 }

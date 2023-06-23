@@ -32,7 +32,7 @@
 
 .destinations--title {
   text-transform: uppercase;
-  margin-left: 8%;
+  text-align: center;
 }
 
 @media (min-width: 768px) {
@@ -54,5 +54,6 @@
   }
   .destinations--title {
     margin-left:18%;
+    text-align: left;
   }
 }

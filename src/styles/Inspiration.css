@@ -27,8 +27,8 @@
 
 .inspiration--container h3 {
     text-transform: uppercase;
-    padding-left:5%;
     margin-bottom:5%;
+    text-align: center;
 }
 
 @media (min-width:1024px) {
@@ -39,5 +39,12 @@
     .inspiration--container {
         width:72%;
         margin-inline:auto;
+    }
+    .inspiration--card img {
+        max-width:400px;
+    }
+    .inspiration--container h3 {
+        text-align: left;
+        margin-left:5%;
     }
 }
