@@ -43,7 +43,6 @@ const Destinations = () => {
         {places.map((item, index) => (
           <Link state={{data:item}} to={`/destination/${item.country}+${item.city}`}>
             <div key={index} style={{ backgroundImage: `url(${item.imageURL})`, backgroundSize: 'cover', backgroundPositionY: '70%' }} className='destinations--card'>
-              {/* <img src={item.imageURL} alt="" /> */}
               <p>{item.country}</p>
               <p>{item.city}</p>
             </div>

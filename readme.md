@@ -16,9 +16,12 @@ npm install
 
 ### Developer Logs
 **version 1.0**
-*Major changes*
--added Login/Sign up feature
+- added Login/Sign up feature
 - 4 country destination added
+
+**version 1.01**
+- added dynamic input for reservation details
+- fixed input date box on iOS
 
 #### Getting Started - /help
 You can visit the */help* section on the of the navbar in the site for help

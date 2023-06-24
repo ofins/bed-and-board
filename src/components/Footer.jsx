@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <div className="footer--container">
         <div className="footer--leftContext">
-            <p>2023 Bed & Board, Inc. All rights reserved.</p>
+            <p>2023 Bed & Board, Inc. All rights reserved. </p>
         </div>
         <div className="footer--rightContext">
             <span>FAQs</span>

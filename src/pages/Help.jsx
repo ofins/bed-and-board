@@ -6,6 +6,7 @@ const Help = () => {
   return (
     <div className="help--container">
         <h3>Bed & Board /help</h3>
+        <i>ver. 1.01</i>
         <div className="help--instruction">
             <h5 className='help subtitle'>Logging in</h5>
             <p>To be able to get to reservation page for this site, you should make sure you're <Link to="/login">logged in</Link> to the site. </p>

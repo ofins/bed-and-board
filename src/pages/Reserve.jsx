@@ -26,7 +26,7 @@ const Reserve = () => {
     const numOfNights = (date_2.getTime() - date_1.getTime()) / (1000 * 3600 * 24)
 
     const [guest, setGuest] = useState({
-        name: '',
+        name: isLoggedIn.username,
         email: '',
         phone: null,
     })
@@ -44,7 +44,7 @@ const Reserve = () => {
                         <Form.Control onChange={e => setGuest({
                             ...guest,
                             name: e.target.value
-                        })} value={isLoggedIn.username} type='text' placeholder='Enter your name' />
+                        })} value={guest.name} type='text' placeholder='Enter your name' />
                     </Form.Group>
                     <Form.Group>
                         <Form.Label>Email</Form.Label>
