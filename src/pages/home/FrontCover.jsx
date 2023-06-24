@@ -39,11 +39,11 @@ const FrontCover = () => {
           <input onChange={e => setLocation({
             ...location,
             checkInDate: e.target.value
-          })} className='inputs frontCover--date' type="date" name="checkInDate" id="checkInDate" />
+          })} className='inputs frontCover--date' type="date" name="checkInDate" id="checkInDate" placeholder='mm/dd/yyyy' />
           <input onChange={e => setLocation({
             ...location,
             checkOutDate: e.target.value
-          })} className='inputs frontCover--date' type="date" name="checkOutDate" id="checkOutDate" />
+          })} className='inputs frontCover--date' type="date" name="checkOutDate" id="checkOutDate" placeholder='mm/dd/yyyy' />
           <Link state={{ data: location }} className={`inputs ${location.checkInDate === 'none' || location.checkOutDate === 'none' || location.location === 'none' ? 'disabled-links': ''}`} id='frontCoverSearch' to="/booking"><button disabled={location.checkInDate === 'none' || location.checkOutDate === 'none' || location.location === 'none' ? true : false}>Search</button></Link>
         </div>
       </div>

@@ -15,12 +15,12 @@ function CarouselCreate(props) {
     imageArrayData(props.urlBase, props.imageCount)
 
     const renderImage = arr.map((img, index) => (
-        <Carousel.Item key={index}>
-            <img className='carousel-image d-block w-100' src={img} />
-            <Carousel.Caption>
-                <p>Lorem ipsum dolor sit amet.</p>
-            </Carousel.Caption>
-        </Carousel.Item>
+            <Carousel.Item key={index}>
+                <img className='d-block w-100' src={img} />
+                <Carousel.Caption>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                </Carousel.Caption>
+            </Carousel.Item>
     ))
 
     return (

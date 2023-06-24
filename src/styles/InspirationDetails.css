@@ -1,3 +1,10 @@
+.inspirationDetails--container {
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    place-items: center;
+}
+
 .inspirationDetails--imageContainer {
     display:flex;
 }
@@ -8,7 +15,10 @@
 
 @media (min-width:1024px) {
     .inspirationDetails--imageContainer {
-        width:100%;
+        max-width:50%;
+    }
+    .inspirationDetails--context {
+        padding-inline:15%;
     }
     .inspirationDetails--context h3 {
         margin-bottom:3%;
